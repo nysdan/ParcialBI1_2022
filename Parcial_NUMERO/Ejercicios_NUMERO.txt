@@ -1,35 +1,57 @@
 # Parcial Bioinformática 1 2022
 
-## Ejercicio 1
 
-* Utiliza la terminal de la Jupyter Notebook *
+1. Dados los archivos adjuntos A.pep y B.pep, ejecuta el BLAST apropiado de A contra B usando, además de los argumentos básicos que indican los inputs, los argumentos:
+-out tablast.AB 
+-outfmt '6 std qlen slen' 
+-evalue 1e-20.
 
-a. 
-
-# Respuesta
-
-b. 
-
-# Respuesta
-
-c. 
-
-# Respuesta
+### Respuesta (1)
 
 
 
-## Ejercicio 2
+2. Determinar, utilizando una terminal de Linux (Los comandos son de la terminal de linux, pero las cuentas las pueden hacer en R o en donde quieran)
+   
+	2.a. qué porcentaje de los genes del query encontraron algún tipo de hit en la base de datos.
 
-* Utiliza R *
 
-a.
+### Respuesta (2.a)
 
-# Respuesta
+	2.b. ¿Cuántos hits superan el 50% de identidad?
 
-b. 
+### Respuesta (2.b)
 
-# Respuesta
+	2.c. De acuerdo a los resultados de i y ii, ¿Puede decirse que los organismos A y B son cercanos? Argumenta.
 
-c. 
+### Respuesta (2.c)
 
-Respuesta
+
+3. Utilizando R:
+	3.a. Importa la tabla tablast.AB y guárdala en un objeto llamado t.
+ 
+
+### Respuesta (3.a)
+
+
+	3.b. ¿Qué tipo de objeto es t? 
+
+### Respuesta (3.b)
+
+
+	3.c. ¿Cuántas columnas tiene t? 
+
+
+### Respuesta (3.c)
+
+ 
+	3.d. ¿Cuál es la media de la columna que tiene los porcentajes de identidad de los alineamientos?
+
+
+### Respuesta (3.d)
+
+
+	3.e. A.pep tiene CDS más cortos que B.cds. Calcule la media de ambos y exprese la diferencia porcentualmente, considerando la media de A como 100 %. En otras palabras, si la media de A fuera 500 y la de B 750, la respuesta sería «los CDS de B son, como media, 50% más largos que los de A».
+
+
+### Respuesta (3.e)
+
