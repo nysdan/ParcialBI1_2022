@@ -1,0 +1,35 @@
+# Parcial Bioinformática 1 2022
+
+## Ejercicio 1
+
+* Utiliza la terminal de la Jupyter Notebook *
+
+a. 
+
+# Respuesta
+
+b. 
+
+# Respuesta
+
+c. 
+
+# Respuesta
+
+
+
+## Ejercicio 2
+
+* Utiliza R *
+
+a.
+
+# Respuesta
+
+b. 
+
+# Respuesta
+
+c. 
+
+Respuesta
