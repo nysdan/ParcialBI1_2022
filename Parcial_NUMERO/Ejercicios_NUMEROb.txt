@@ -1,0 +1,77 @@
+# Parcial Bioinformática 1 2022
+
+
+1. Dados los archivos adjuntos Org1.pep y Org2.pep, ejecuta el BLAST apropiado de Org1 contra Org2, agregando los argumentos necesarios para que:
+
+- El archivo de salida se llame tablast_12
+- tablast_12 sea una tabla que contenga las siguientes columnas:
+	1. qseqid
+	2. sseqid
+	3. pident
+	4. sstart
+	5. send
+	6. slen
+	7. evalue
+	8. bitscore
+- Todos los hits reportados en la tabla deben tener un evalue menor a 1E-15
+
+
+### Respuesta (1)
+
+
+2. Determinar, utilizando una terminal de Linux 
+   
+	2.a. ¿Cuántas secuencias query diferentes tienen hits con evalue < 1e-20?
+
+
+### Respuesta (2.a)
+
+
+	2.b. ¿Qué porcentaje de los hits tienen evalue menor a 1e-20 e identidad superior al 50%?
+
+### Respuesta (2.b)
+
+
+3. Utilizando R:
+	3.a. Importa la tabla tablast_12 y guárdala en un objeto llamado tablast.
+
+ 
+
+### Respuesta (3.a)
+
+
+	3.b. Agregar los nombres de las columnas a la tabla
+
+
+### Respuesta (3.b)
+
+
+3.c. Grafica los porcentajes de identidad de la tabla en un boxplot. Exporta el gráfico en un archivo .pdf. 
+
+
+### Respuesta (3.c)
+
+
+
+	3.d. Calcula la cobertura de cada hit, a partir del rango de posiciones cubiertas en las secuencias subject. Almacenala en un vector llamado cobertura.
+
+
+### Respuesta (3.d)
+
+
+
+
+	3.e. Crea y exporta una tabla llamada tabla2 a partir de tablast, que contenga todas las filas y las siguientes columnas:
+		1. qseqid
+		2. sseqid
+		3. pident
+		4. cobertura
+	     El archivo con la tabla debe llamarse tabla2.tsv, conservar los nombres de columnas, con tabulaciones como separadores de columnas, y sin nombres de filas.	
+
+### Respuesta (3.e)
+
+
+
+
+
+	
